@@ -224,10 +224,13 @@ h6 {
       align-self: flex-start;
       border: 0;
       display: flex;
+      height: calc(100% - 23.5rem);
       flex-direction: column;
       justify-content: center;
 
       h5 {
+        position: absolute;
+        bottom: 2rem;
         margin: 0;
       }
 
